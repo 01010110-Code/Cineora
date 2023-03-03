@@ -1,3 +1,51 @@
+@font-face {
+    font-family: 'F1';
+    src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype'),
+  }
+@font-face {
+    font-family: 'F2';
+    src: url('/fonts/Pragmatica.ttf') format('truetype'),
+  }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'F1', sans-serif;
+}
+p,a,button,label,input,select,textarea{
+    font-family: 'F2', sans-serif;
+}
+  
 html{
     background-color: #000000;
 }
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.first-section{
+    background-image: url("/assets/Background-Div1.jpg");
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .header-links{
+    color: black;
+  }
+  .header-links{
+    color: white;
+    padding: 70px;
+  }

@@ -7,11 +7,12 @@
 /* declaring the fonts*/
 @font-face {
     font-family: 'F1';
-    src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype'),
+    src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype');
   }
+
 @font-face {
     font-family: 'F2';
-    src: url('/fonts/Pragmatica.ttf') format('truetype'),
+    src: url('/fonts/Pragmatica.ttf') format('truetype');
   }
 
 /* assigning the choosen fonts to the elemnents of the pages */
@@ -69,31 +70,41 @@ nav ul {
   -webkit-text-stroke-color: var(--blue);
   font-size: 70px;
   padding: 30px;
-  border: 1px solid black;
   text-align: center;
   }
 
 .mid-section{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 300px;
 }
 .two-buttons{
     padding: 20px;
-    border: 1px solid black;
     text-align: center;
+    
 }
 .flexbuttons{
   display: flex;
   flex-direction: column;
+  padding-top: 93px;
+  padding-left: 80px;
 }
 .button-1{
   background-color: var(--blue);
   color: black;
-  padding: 10px 20px;
+  border: none;
+  padding: 13px 34px;
+  margin-bottom: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
 }
 .button-2{
   background-color: transparent;
   border: 3px solid var(--blue);
   color: var(--blue);
-  padding: 10px 20px;
+  padding: 13px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
 }

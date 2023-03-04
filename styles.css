@@ -1,3 +1,10 @@
+/* setting the variables names */
+
+:root{
+  --blue: #80F0FF
+}
+
+/* declaring the fonts*/
 @font-face {
     font-family: 'F1';
     src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype'),
@@ -6,29 +13,37 @@
     font-family: 'F2';
     src: url('/fonts/Pragmatica.ttf') format('truetype'),
   }
+
+/* assigning the choosen fonts to the elemnents of the pages */
 h1,h2,h3,h4,h5,h6{
     font-family: 'F1', sans-serif;
 }
 p,a,button,label,input,select,textarea{
     font-family: 'F2', sans-serif;
 }
-  
+
+/* the default background color*/
 html{
     background-color: #000000;
 }
+
+/* these settings are going to give the full page effect */
 body{
     padding: 0;
     margin: 0;
 
 }
+
+/* the CSS for the first section of the page */
 .first-section{
     background-image: url("/assets/Background-Div1.jpg");
+    height:auto;
 }
-
+/* the CSS for the header links */
 nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 70px;
     display: flex;
   }
   
@@ -43,9 +58,20 @@ nav ul {
     font-weight: bold;
   }
   .header-links{
-    color: black;
+    color: var(--blue);
+    padding: 10px;
   }
-  .header-links{
-    color: white;
-    padding: 70px;
-  }
+
+/* the css for the header of the page */
+.mid-section{
+  display: grid;
+}
+.firstheadline{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--blue);
+  font-size: 70px;
+  padding: 30px;
+
+}
+

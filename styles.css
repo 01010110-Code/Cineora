@@ -63,15 +63,37 @@ nav ul {
   }
 
 /* the css for the header of the page */
-.mid-section{
-  display: grid;
-}
 .firstheadline{
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: var(--blue);
   font-size: 70px;
   padding: 30px;
+  border: 1px solid black;
+  text-align: center;
+  }
 
+.mid-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
+.two-buttons{
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.flexbuttons{
+  display: flex;
+  flex-direction: column;
+}
+.button-1{
+  background-color: var(--blue);
+  color: black;
+  padding: 10px 20px;
+}
+.button-2{
+  background-color: transparent;
+  border: 3px solid var(--blue);
+  color: var(--blue);
+  padding: 10px 20px;
+}

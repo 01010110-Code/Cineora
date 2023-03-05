@@ -130,12 +130,46 @@ nav ul {
 }
 .column {
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 0px;
 }
 .image-second-section{
-  width: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .header-second-section{
   color: var(--blue);
+  margin-top: 150px;
   font-size: 45px;
+  text-align: center;
+  padding-right: 70px;
+  padding-left: 70px;
 }
+.subheader-second-section{
+  color: white;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+/* the CSS for the second section button */
+.button-3{
+  background-color: transparent;
+  border: 3px solid var(--blue);
+  color: var(--blue);
+  padding: 13px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: 'F1';
+  font-size: 16px;
+}
+.button-3:hover{
+  background-color: var(--blue);
+  color: black;
+  border: none;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+

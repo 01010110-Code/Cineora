@@ -121,10 +121,17 @@ nav ul {
   color: black;
   border: none;
 }
-.second-section-grid{
+
+/* second section CSS */
+
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.company-tag{
-  color: var(--blue);
+.column {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.image-second-section{
+  width: 90%;
 }

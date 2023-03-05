@@ -133,5 +133,9 @@ nav ul {
   border: 1px solid #ccc;
 }
 .image-second-section{
-  width: 90%;
+  width: 60%;
+}
+.header-second-section{
+  color: var(--blue);
+  font-size: 45px;
 }

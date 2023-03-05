@@ -121,3 +121,10 @@ nav ul {
   color: black;
   border: none;
 }
+.second-section-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.company-tag{
+  color: var(--blue);
+}

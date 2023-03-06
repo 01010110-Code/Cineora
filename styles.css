@@ -1,7 +1,8 @@
 /* setting the variables names */
 
 :root{
-  --blue: #80F0FF
+  --blue: #80F0FF;
+  --dark: #001a1e;
 }
 
 /* declaring the fonts*/
@@ -16,10 +17,12 @@
   }
 
 /* assigning the choosen fonts to the elemnents of the pages */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,li,ul
+{
     font-family: 'F1', sans-serif;
 }
-p,a,button,label,input,select,textarea{
+p,a,button,label,input,select,textarea
+{
     font-family: 'F2', sans-serif;
 }
 
@@ -171,5 +174,48 @@ nav ul {
 .button-container {
   display: flex;
   justify-content: center;
+}
+/* The CSS for the section 3 */
+
+.section-3{
+  background-color: var(--blue);
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.section-3-header{
+  color: var(--dark);
+  font-size: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.section-3-subheader{
+  color: black;
+  padding-right: 60px;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.section-3-services{
+  color: black;
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+/* The fourth section */
+
+
+.fourth-section{
+  color: black;
+}
+.section-4-headline{
+  color: var(--blue);
+  text-align: center;
+  font-size: 60px;
+}
+
+.image-4-section{
+  width: 400px;
+  height: 600px;
 }
 

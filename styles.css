@@ -210,8 +210,9 @@ nav ul {
 }
 .section-4-headline{
   color: var(--blue);
-  text-align: center;
-  font-size: 60px;
+  text-align: left;
+  font-size: 50px;
+  padding-left: 80px;
 }
 
 .image-4-section{
@@ -252,7 +253,7 @@ nav ul {
   text-align: center;
   padding-top: 20px;
   box-sizing: border-box;
-  text-shadow: #000000 5px;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .section-4-header h2 {
@@ -272,7 +273,7 @@ nav ul {
   padding-top: 20px;
   box-sizing: border-box;
   font-size: 24px;
-  text-shadow: #000000 5px;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .section-4-subheader h2{

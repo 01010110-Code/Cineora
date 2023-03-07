@@ -305,6 +305,35 @@ nav ul {
 /* the CSS for the 5th section of the webpage */
 .section-5{
   background-color: var(--blue);
-
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-
+.section-5-headline{
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 80px;
+}
+.header-section-5{
+  line-height: 17px;
+}
+.container-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.column-5 {
+  padding: 30px;
+  border: 0px;
+}
+.client-comment{
+  font-size: 15px;
+}
+.client-identity{
+  font-size: 20px;
+}
+.client-info
+{
+  line-height: 0px;
+}

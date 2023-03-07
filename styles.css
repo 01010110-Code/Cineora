@@ -329,7 +329,9 @@ nav ul {
 }
 .client-comment{
   font-size: 15px;
+  line-height: 25px;
 }
+
 .client-identity{
   font-size: 20px;
 }
@@ -337,3 +339,22 @@ nav ul {
 {
   line-height: 0px;
 }
+.parallelogram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 200px;
+}
+
+.parallelogram {
+  width: 12px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #000000;
+  transform: skew(-13deg);
+  transform-origin: bottom left;
+  margin-right: 2px;
+}
+

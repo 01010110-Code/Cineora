@@ -9,4 +9,4 @@ A video production company that specializes in creating content for corporate cl
 
 # Status: 
 
-38% done... ^_^
+65% done... ^_^

@@ -125,14 +125,23 @@ nav ul {
   border: none;
 }
 
-/* second section CSS */
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .column {
   padding: 20px;
+  border: 0px;
+}
+
+/* second section CSS */
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.column2 {
+  padding: 0px;
   border: 0px;
 }
 .image-second-section{
@@ -151,6 +160,8 @@ nav ul {
 .subheader-second-section{
   color: white;
   padding-right: 70px;
+  line-height: 25px;
+  font-weight: 800;
   padding-left: 70px;
   text-align: center;
 }
@@ -207,6 +218,8 @@ nav ul {
 
 .fourth-section{
   color: black;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 .section-4-headline{
   color: var(--blue);
@@ -216,12 +229,12 @@ nav ul {
 }
 
 .image-4-section{
-  width: 500px;
-  height: 600px;
-  border-radius: 50%/13px;
+  width: 380px;
+  height: 500px;
   overflow: hidden;
   filter: grayscale(100%);
-  }
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+}
   
 .image-4-section:hover{
   filter: grayscale(0);
@@ -234,6 +247,7 @@ nav ul {
   padding: 30px;
   float: right;
   text-align: center;
+  text-shadow: 2px 2px 5px #000000;
 }
 
 .image-container1 {
@@ -264,15 +278,15 @@ nav ul {
 .section-4-subheader{
   position: absolute;
   top: 80%;
-  left: 0;
+  right: 46%;
   width: 100%;
   height: 15%;
   background-color: none;
-  color: white;
+  color: var(--blue);
   text-align: center;
   padding-top: 20px;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 18px;
   text-shadow: 2px 2px 5px #000000;
 }
 
@@ -286,5 +300,11 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+/* the CSS for the 5th section of the webpage */
+.section-5{
+  background-color: var(--blue);
+
 }
 

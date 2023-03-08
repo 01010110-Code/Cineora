@@ -362,7 +362,7 @@ nav ul {
 /* the CSS for the 6th section */
 .section-6
 {
-  background-image: url(/assets/section6.png);
+  background-image: url(/assets/Background-section-6.png);
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -403,14 +403,22 @@ nav ul {
   color: var(--blue);
   text-align: right;
   padding-right: 90px;
-  margin-top: 540px;
+  padding-bottom: 0px;
+  margin-top: 520px;
 }
 .social-icons{
   display: flexbox;
   flex-direction: row;
-  
+  justify-content: flex-end;
+  margin-left: 520px;
+  padding-top: 0px;
+  margin-top: -10px;
+
 }
 .sm-icon{
-  height: 25px;
+  height: 30px;
   width: auto;
+}
+.inner-column-6{
+  line-height: 10px;;
 }

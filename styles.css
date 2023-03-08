@@ -356,5 +356,29 @@ nav ul {
   transform: skew(-13deg);
   transform-origin: bottom left;
   margin-right: 2px;
+
 }
 
+/* the CSS for the 6th section */
+.section-6
+{
+  background-image: url(/assets/section6.png);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.column-6{
+  padding-top: 30px;
+}
+.headline-section-6{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--blue);
+  font-size: 70px;
+  padding: 30px;
+  text-align: center;
+  padding-top: 30px;
+  }
+.inner-grid-6{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

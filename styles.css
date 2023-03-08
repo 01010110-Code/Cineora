@@ -481,6 +481,9 @@ nav ul {
   width: auto;
   padding: 0;
 }
+.sm-icon:hover{
+  filter:brightness(50%);
+}
 .inner-column-6{
   line-height: 10px;;
 }

@@ -219,18 +219,23 @@ nav ul {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.column-wwd{
+  margin: 0;
+  padding: 0;
+  background-color: var(--blue);
+}
 .section-3-header{
-  color: var(--dark);
+  color: black;
   font-size: 60px;
-  padding-right: 30px;
-  padding-left: 30px;
+  text-align: center;
 }
 .column-services{
   padding: 0px;
   border: 0px;
-  background-color: #000000;
+  filter:blur(20%);
   
 }
+
 
 .section-3-subheader{
   color: black;
@@ -239,12 +244,7 @@ nav ul {
   padding-left: 30px;
 }
 
-.section-3-services{
-  color: var(--blue);
-  font-size: 30px;
-  padding-top: 60px;
-  text-align: center;
-}
+
 
 /* The fourth section */
 
@@ -416,6 +416,7 @@ nav ul {
   padding: 30px;
   text-align: center;
   padding-top: 30px;
+  line-height: 70px;
   }
 .inner-grid-6{
   display: grid;

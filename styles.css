@@ -214,6 +214,15 @@ nav ul {
 }
 /* The CSS for the section 3 */
 
+.image-third-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  filter: grayscale(0%);
+}
+.image-third-section:hover{
+  filter: grayscale(50%);
+}
 .section-3{
   background-color: var(--blue);
   padding-top: 0px;
@@ -239,14 +248,16 @@ nav ul {
 
 .section-3-subheader{
   color: black;
-  padding-right: 60px;
-  font-size: 17px;
-  padding-left: 30px;
+  padding-right: 70px;
+  font-size: 16px;
+  padding-left: 40px;
+  text-align: center;
 }
 
 
 
 /* The fourth section */
+
 
 .fourth-section{
   color: black;
@@ -335,6 +346,23 @@ nav ul {
 }
 
 /* the CSS for the 5th section of the webpage */
+
+.thick-line{
+  border-bottom: 5px solid black; 
+  height: 10px;
+  width: 39px;
+  margin-left: 55px;
+  padding: 0;
+  margin-top: -18px;
+}
+.thick-line-2{
+  border-bottom: 5px solid black; 
+  height: 10px;
+  width: 39px;
+  margin-left: 55px;
+  padding: 0;
+  margin-top: 0px;
+}
 .section-5{
   background-color: var(--blue);
   padding-top: 40px;
@@ -377,7 +405,7 @@ nav ul {
   align-items: center;
   float: left;
   padding-right: 15px;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
 }
 
 .parallelogram {
@@ -437,7 +465,7 @@ nav ul {
   text-align: right;
   padding-right: 90px;
   padding-bottom: 0px;
-  margin-top: 520px;
+  margin-top: 468px;
 }
 .social-icons{
   display: flexbox;
@@ -445,12 +473,13 @@ nav ul {
   justify-content: flex-end;
   margin-left: 520px;
   padding-top: 0px;
-  margin-top: -10px;
+  margin-top: -15px;
 
 }
 .sm-icon{
   height: 30px;
   width: auto;
+  padding: 0;
 }
 .inner-column-6{
   line-height: 10px;;

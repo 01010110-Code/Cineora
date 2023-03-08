@@ -487,3 +487,23 @@ nav ul {
 .inner-column-6{
   line-height: 10px;;
 }
+
+/* scroll back up button */
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#scroll-to-top:hover {
+  background-color: #333;
+}

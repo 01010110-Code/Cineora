@@ -366,8 +366,15 @@ nav ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.column-6{
+.column-6-right{
   padding-top: 30px;
+  border: none;
+}
+.column-6-left{
+  padding-top: 30px;
+  border: none;
+  padding-right: 150px;
+
 }
 .headline-section-6{
   -webkit-text-fill-color: transparent;
@@ -381,4 +388,29 @@ nav ul {
 .inner-grid-6{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.contact-method{
+  color: var(--blue);
+  text-align: center;
+  padding-top: 100px;
+}
+.contact-information{
+  color: var(--blue);
+  text-align: center;
+  font-size: 18px;
+}
+.social-label{
+  color: var(--blue);
+  text-align: right;
+  padding-right: 90px;
+  margin-top: 540px;
+}
+.social-icons{
+  display: flexbox;
+  flex-direction: row;
+  
+}
+.sm-icon{
+  height: 25px;
+  width: auto;
 }

@@ -148,6 +148,10 @@ nav ul {
   width: 100%;
   display: flex;
   justify-content: center;
+  filter: grayscale(50%);
+}
+.image-second-section:hover{
+  filter: grayscale(0%);
 }
 .header-second-section{
   color: var(--blue);
@@ -181,10 +185,32 @@ nav ul {
   background-color: var(--blue);
   color: black;
   border: none;
+  border: 3px solid #80F0FF;
+}
+.button-3-2{
+  background-color: var(--blue);
+  color: black;
+  border: none;
+  padding: 13px 34px;
+  margin-bottom: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'F1';
+  border: 3px solid #80F0FF;
+}
+.button-3-2:hover{
+  background-color: transparent;
+  border: 3px solid var(--blue);
+  color: var(--blue);
 }
 .button-container {
   display: flex;
   justify-content: center;
+}
+.two-buttons-flexbox{
+  display: flexbox;
+  flex-direction: row;
 }
 /* The CSS for the section 3 */
 
@@ -362,7 +388,7 @@ nav ul {
 /* the CSS for the 6th section */
 .section-6
 {
-  background-image: url(/assets/Background-section-6.png);
+  background-image: url(/assets/kyle.png);
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

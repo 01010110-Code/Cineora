@@ -3,6 +3,7 @@
 :root{
     --blue: #80F0FF;
     --dark: #001a1e;
+    --light: #013b46;
   }
   
   /* declaring the fonts*/
@@ -66,6 +67,7 @@
   form {
     margin: 0 auto;
     width: 30%;
+    color: white;
   }
   label{
     font-family: 'F1';
@@ -84,6 +86,9 @@
     border: none;
     padding: 13px;
     background-color: var(--dark);
+}
+input:hover{
+    background-color: var(--light);
 }
 input[type="submit"]{
     background-color: transparent;

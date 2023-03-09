@@ -1,0 +1,80 @@
+/* setting the variables names */
+
+:root{
+    --blue: #80F0FF;
+    --dark: #001a1e;
+  }
+  
+  /* declaring the fonts*/
+  @font-face {
+      font-family: 'F1';
+      src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype');
+    }
+  
+  @font-face {
+      font-family: 'F2';
+      src: url('/fonts/Pragmatica.ttf') format('truetype');
+    }
+  
+  /* assigning the choosen fonts to the elemnents of the pages */
+  h1,h2,h3,h4,h5,h6,li,ul
+  {
+      font-family: 'F1', sans-serif;
+  }
+  p,a,button,label,input,select,textarea
+  {
+      font-family: 'F2', sans-serif;
+  }
+  
+  /* the default background color*/
+  html{
+      background-image: url(/pages/contact/asset/contact.jpg);
+      padding: 0;
+      margin: 0;
+      border: 0
+  }
+  
+  /* these settings are going to give the full page effect */
+  body
+  {
+      padding: 0;
+      margin: 0;
+      border: 0;
+  
+  }
+  .headline
+  {
+    text-align: center;
+    padding-top: 30px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--blue);
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+  .subheader
+  {
+    color: white;
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  form {
+    margin: 0 auto;
+    width: 30%;
+  }
+  label{
+    font-family: 'F1';
+    font-size: 20px;
+    color: var(--blue);
+  }
+  input[for="subject"]{
+    padding-bottom: 30px;
+  }
+  input{
+    width: 430px;
+    margin-bottom: 30px;
+    border: 2px solid #80F0FF;
+    padding: 10px;
+}

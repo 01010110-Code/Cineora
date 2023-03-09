@@ -1,0 +1,29 @@
+/* setting the variables names */
+
+:root{
+    --blue: #80F0FF;
+    --dark: #001a1e;
+    --light: #013b46;
+  }
+  
+  /* declaring the fonts*/
+  @font-face {
+      font-family: 'F1';
+      src: url('/fonts/PragmaticaExtendedBold.otf') format('truetype');
+    }
+  
+  @font-face {
+      font-family: 'F2';
+      src: url('/fonts/Pragmatica.ttf') format('truetype');
+    }
+  
+  /* assigning the choosen fonts to the elemnents of the pages */
+  h1,h2,h3,h4,h5,h6,li,ul
+  {
+      font-family: 'F1', sans-serif;
+  }
+  p,a,button,label,input,select,textarea
+  {
+      font-family: 'F2', sans-serif;
+  }
+  

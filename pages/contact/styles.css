@@ -30,11 +30,11 @@
   /* the default background color*/
   html{
       background-image: url(/pages/contact/asset/contact.jpg);
+      background-size: cover;
       padding: 0;
       margin: 0;
       border: 0
   }
-  
   /* these settings are going to give the full page effect */
   body
   {
@@ -57,10 +57,10 @@
   {
     color: white;
     text-align: center;
-    padding-left: 380px;
-    font-size: 17px;;
-    padding-right: 380px;
-    text-shadow: 2px 2px 4px #000000;
+    padding-left: 450px;
+    font-size: 14px;
+    padding-right: 450px;
+    text-shadow: 3px 3px 6px #000000;
   }
 
   /* the CSS for the form */
@@ -86,9 +86,16 @@
     border: none;
     padding: 13px;
     background-color: var(--dark);
+    color: white;
+    border: 0.5px #00242b solid;
+}
+input:focus{
+  outline: none;
+  border: 1px #80F0FF solid;
 }
 input:hover{
     background-color: var(--light);
+    border: 0.5px #04282e solid;
 }
 input[type="submit"]{
     background-color: transparent;
@@ -112,7 +119,7 @@ input[type="submit"]:hover
     color: black;
     border: solid 3px #80F0FF;
     width: 20%;
-    padding: 13px 20px;
+    padding: 13px 17px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
@@ -126,6 +133,13 @@ input[type="submit"]:hover
     border: 3px solid var(--blue);
     color: var(--blue);
 }
-a{
+a
+{
     text-decoration: none;
+}
+
+#myInput::placeholder {
+  color: rgb(162, 162, 162);
+  font-family: 'F2';
+
 }

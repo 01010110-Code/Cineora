@@ -26,4 +26,60 @@
   {
       font-family: 'F2', sans-serif;
   }
+
+  html
+  {
+    background-image: url(/assets/section-6.jpg)
+  }
+  .header
+  {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--blue);
+  font-size: 50px;
+    padding: 30px;
+    text-align: center;
+
+
+  }
+  .first-project
+  {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 0;
+  }
   
+  .column-1
+  {
+    background-color: transparent;
+  }
+  .column-2
+  {
+    background-color: transparent;
+  }
+  .brandimg-1
+  {
+    width: 100%;
+    filter: grayscale(100%);
+  }
+  .brandimg-1:hover
+  {
+    filter: grayscale(30%);
+    image-rendering:optimizeQuality;
+  }
+  .brand-name{
+   -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--blue);
+  font-size: 40px;
+  text-align: center;
+  }
+  .brand-work
+  {
+    color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: 'F2';
+    font-size: 20px;
+  }

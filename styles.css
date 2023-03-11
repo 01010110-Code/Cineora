@@ -68,6 +68,10 @@ nav ul {
     font-family: 'F1';
     font-weight: bold;
   }
+  .header-links:hover
+  {
+    color: var(--blue-background);
+  }
 
 /* the css for the header of the page */
 .firstheadline{

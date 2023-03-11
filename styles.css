@@ -1,8 +1,9 @@
 /* setting the variables names */
 
 :root{
-  --blue: #80F0FF;
+  --blue: #62cddb;
   --dark: #001a1e;
+  --blue-background:#49b1bf;
 }
 
 /* declaring the fonts*/
@@ -96,7 +97,7 @@ nav ul {
 .button-1{
   background-color: var(--blue);
   color: black;
-  border: 3px solid #80F0FF;
+  border: 3px solid var(--blue);
   padding: 13px 34px;
   margin-bottom: 18px;
   font-weight: bolder;
@@ -122,7 +123,7 @@ nav ul {
 .button-2:hover{
   background-color: var(--blue);
   color: black;
-  border: solid 3px #80F0FF;
+  border: solid 3px var(--blue);
 }
 
 .container {
@@ -155,7 +156,7 @@ nav ul {
 }
 .header-second-section{
   color: var(--blue);
-  margin-top: 150px;
+  margin-top: 60px;
   font-size: 45px;
   text-align: center;
   padding-right: 70px;
@@ -185,7 +186,7 @@ nav ul {
   background-color: var(--blue);
   color: black;
   border: none;
-  border: 3px solid #80F0FF;
+  border: 3px solid var(--blue);
 }
 .button-3-2{
   background-color: var(--blue);
@@ -197,7 +198,7 @@ nav ul {
   cursor: pointer;
   font-size: 16px;
   font-family: 'F1';
-  border: 3px solid #80F0FF;
+  border: 3px solid var(--blue);
 }
 .button-3-2:hover{
   background-color: transparent;
@@ -213,6 +214,16 @@ nav ul {
   flex-direction: row;
 }
 /* The CSS for the section 3 */
+
+.container-section-3
+{
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+}
+.container-section-3-c1{
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+}
 
 .image-third-section{
   width: 100%;
@@ -231,25 +242,24 @@ nav ul {
 .column-wwd{
   margin: 0;
   padding: 0;
-  background-color: var(--blue);
+  background-color: var(--blue-background);
 }
 .section-3-header{
   color: black;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
+  margin-top: 90px;
 }
 .column-services{
   padding: 0px;
-  border: 0px;
-  filter:blur(20%);
-  
+  border: 0px;  
 }
 
 
 .section-3-subheader{
   color: black;
   padding-right: 70px;
-  font-size: 16px;
+  font-size: 15.5px;
   padding-left: 40px;
   text-align: center;
 }
@@ -364,7 +374,7 @@ nav ul {
   margin-top: 0px;
 }
 .section-5{
-  background-color: var(--blue);
+  background-color: var(--blue-background);
   padding-top: 40px;
   padding-bottom: 40px;
 }

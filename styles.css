@@ -30,6 +30,7 @@ p,a,button,label,input,select,textarea
 /* the default background color*/
 html{
     background-color: #000000;
+    scroll-behavior: smooth;
 }
 
 /* these settings are going to give the full page effect */

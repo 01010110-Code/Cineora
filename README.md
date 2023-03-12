@@ -9,7 +9,7 @@ A video production company that specializes in creating content for corporate cl
 #  Screenshots:
 ![Alt text](/screenshots/section-1.png?raw=true "First section")
 ![Alt text](/screenshots/section-2.png?raw=true "First section")
-![Alt text](/screenshots/3section-3.png?raw=true "First section")
+![Alt text](/screenshots/section-3.png?raw=true "First section")
 ![Alt text](/screenshots/section-4.png?raw=true "First section")
 ![Alt text](/screenshots/section-5.png?raw=true "First section")
 ![Alt text](/screenshots/section-6.png?raw=true "First section")

@@ -1,6 +1,6 @@
 # Cineora
 
-![logo](/assets/cineora.png.png?raw=true "ss")
+![logo](/assets/cineora.png?raw=true "ss")
 
 Cineora is a sleek and modern front-end website built for a company that specializes in animation event filming, corporate videos, and more. The website is built using HTML, CSS, and JavaScript and features a clean and professional design.
 
